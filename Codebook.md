@@ -14,6 +14,7 @@ was obtained by calculating variables from the time and frequency domain."[^1]
 
 ## Variable Desciptions
 Variable name (Headers) | Description
+--- | ---
 "subject" | a                                                            
 "activity" | a                                                               
 "TimeBody_Accelerometer__Mean__X"   | a                                      
