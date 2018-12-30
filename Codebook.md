@@ -15,15 +15,87 @@ was obtained by calculating variables from the time and frequency domain."[^1]
 ## Variable Desciptions
 Variable name (Headers) | Description
 --- | ---
-"subject" | a                                                            
-"activity" | a                                                               
-"TimeBody_Accelerometer__Mean__X"   | a                                      
- [4] "TimeBody_Accelerometer__Mean__Y"    | a                                     
- [5] "TimeBody_Accelerometer__Mean__Z"      | a                                   
- [6] "TimeBody_Accelerometer__StandardDeviation__X"   | a                         
- [7] "TimeBody_Accelerometer__StandardDeviation__Y"| a                            
- [8] "TimeBody_Accelerometer__StandardDeviation__Z"  | a                          
- [9] "TimeDomain_GravityAccelerometer__Mean__X"  | a                              
+"subject" | Subject ID                                                            
+"activity" | The activity performed                                                              
+"TimeBody_Accelerometer__Mean__X"   | Mean time for acceleration of body for X direction                                      
+"TimeBody_Accelerometer__Mean__Y"    | Mean time for acceleration of body for Y direction                                     
+"TimeBody_Accelerometer__Mean__Z"      | Mean time for acceleration of body for Z direction                                   
+"TimeBody_Accelerometer__StandardDeviation__X"   | Standard deviation of time for acceleration of body for X direction                  
+"TimeBody_Accelerometer__StandardDeviation__Y"| a                            
+"TimeBody_Accelerometer__StandardDeviation__Z"  | a                          
+"TimeDomain_GravityAccelerometer__Mean__X"  | a     
+"TimeDomain_GravityAccelerometer__Mean__Y"                            
+"TimeDomain_GravityAccelerometer__Mean__Z"                            
+"TimeDomain_GravityAccelerometer__StandardDeviation__X"               
+"TimeDomain_GravityAccelerometer__StandardDeviation__Y"               
+"TimeDomain_GravityAccelerometer__StandardDeviation__Z"               
+"TimeBody_Accelerometer_Jerk_Mean__X"                                 
+"TimeBody_Accelerometer_Jerk_Mean__Y"                                 
+"TimeBody_Accelerometer_Jerk_Mean__Z"                                 
+"TimeBody_Accelerometer_Jerk_StandardDeviation__X"                    
+"TimeBody_Accelerometer_Jerk_StandardDeviation__Y"                    
+"TimeBody_Accelerometer_Jerk_StandardDeviation__Z"                    
+"TimeBody_Gyroscope__Mean__X"                                         
+"TimeBody_Gyroscope__Mean__Y"                                         
+"TimeBody_Gyroscope__Mean__Z"                                         
+"TimeBody_Gyroscope__StandardDeviation__X"                            
+"TimeBody_Gyroscope__StandardDeviation__Y"                            
+"TimeBody_Gyroscope__StandardDeviation__Z"                            
+"TimeBody_Gyroscope_Jerk_Mean__X"                                     
+"TimeBody_Gyroscope_Jerk_Mean__Y"                                     
+"TimeBody_Gyroscope_Jerk_Mean__Z"                                     
+"TimeBody_Gyroscope_Jerk_StandardDeviation__X"                        
+"TimeBody_Gyroscope_Jerk_StandardDeviation__Y"                        
+"TimeBody_Gyroscope_Jerk_StandardDeviation__Z"                        
+"TimeBody_Accelerometer_Magnitude__Mean_"                             
+"TimeBody_Accelerometer_Magnitude__StandardDeviation_"                
+"TimeDomain_GravityAccelerometer_Magnitude__Mean_"                    
+"TimeDomain_GravityAccelerometer_Magnitude__StandardDeviation_"       
+"TimeBody_Accelerometer_JerkMagnitude__Mean_"                         
+"TimeBody_Accelerometer_JerkMagnitude__StandardDeviation_"            
+"TimeBody_Gyroscope_Magnitude__Mean_"                                 
+"TimeBody_Gyroscope_Magnitude__StandardDeviation_"                    
+"TimeBody_Gyroscope_JerkMagnitude__Mean_"                             
+"TimeBody_Gyroscope_JerkMagnitude__StandardDeviation_"                
+"FrequencyDomain_BodyAccelerometer__Mean__X"                          
+"FrequencyDomain_BodyAccelerometer__Mean__Y"                          
+"FrequencyDomain_BodyAccelerometer__Mean__Z"                          
+"FrequencyDomain_BodyAccelerometer__StandardDeviation__X"             
+"FrequencyDomain_BodyAccelerometer__StandardDeviation__Y"             
+"FrequencyDomain_BodyAccelerometer__StandardDeviation__Z"             
+"FrequencyDomain_BodyAccelerometer__Mean_Frequency__X"                
+"FrequencyDomain_BodyAccelerometer__Mean_Frequency__Y"                
+"FrequencyDomain_BodyAccelerometer__Mean_Frequency__Z"                
+"FrequencyDomain_BodyAccelerometer_Jerk_Mean__X"                      
+"FrequencyDomain_BodyAccelerometer_Jerk_Mean__Y"                      
+"FrequencyDomain_BodyAccelerometer_Jerk_Mean__Z"                      
+"FrequencyDomain_BodyAccelerometer_Jerk_StandardDeviation__X"         
+"FrequencyDomain_BodyAccelerometer_Jerk_StandardDeviation__Y"         
+"FrequencyDomain_BodyAccelerometer_Jerk_StandardDeviation__Z"         
+"FrequencyDomain_BodyAccelerometer_Jerk_Mean_Frequency__X"            
+"FrequencyDomain_BodyAccelerometer_Jerk_Mean_Frequency__Y"            
+"FrequencyDomain_BodyAccelerometer_Jerk_Mean_Frequency__Z"            
+"FrequencyDomain_BodyGyroscope__Mean__X"                              
+"FrequencyDomain_BodyGyroscope__Mean__Y"                              
+"FrequencyDomain_BodyGyroscope__Mean__Z"                              
+"FrequencyDomain_BodyGyroscope__StandardDeviation__X"                 
+"FrequencyDomain_BodyGyroscope__StandardDeviation__Y"                 
+"FrequencyDomain_BodyGyroscope__StandardDeviation__Z"                 
+"FrequencyDomain_BodyGyroscope__Mean_Frequency__X"                    
+"FrequencyDomain_BodyGyroscope__Mean_Frequency__Y"                    
+"FrequencyDomain_BodyGyroscope__Mean_Frequency__Z"                    
+"FrequencyDomain_BodyAccelerometer_Magnitude__Mean_"                  
+"FrequencyDomain_BodyAccelerometer_Magnitude__StandardDeviation_"     
+"FrequencyDomain_BodyAccelerometer_Magnitude__Mean_Frequency_"        
+"FrequencyDomain_Body_Accelerometer_JerkMagnitude__Mean_"             
+"FrequencyDomain_Body_Accelerometer_JerkMagnitude__StandardDeviation_"
+"FrequencyDomain_Body_Accelerometer_JerkMagnitude__Mean_Frequency_"   
+"FrequencyDomain_Body_Gyroscope_Magnitude__Mean_"                     
+"FrequencyDomain_Body_Gyroscope_Magnitude__StandardDeviation_"        
+"FrequencyDomain_Body_Gyroscope_Magnitude__Mean_Frequency_"           
+"FrequencyDomain_Body_Gyroscope_JerkMagnitude__Mean_"                 
+"FrequencyDomain_Body_Gyroscope_JerkMagnitude__StandardDeviation_"    
+"FrequencyDomain_Body_Gyroscope_JerkMagnitude__Mean_Frequency_"
 
 
 
