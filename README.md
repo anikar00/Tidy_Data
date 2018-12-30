@@ -11,7 +11,7 @@ The following steps were taken on the data:
 1. The above data sets were downloaded as UCI HAR Dataset zip file.
 2. The files are unzipped and placed in the current working directory.
 3. The training and the test sets of data were all loaded and the multiple datasets were mmerged together using `rbind`.
-4. Only the measurements (features) on the mean and standard deviation for each measurement were extracted using 'grep'.
+4. Only the measurements (features) on the mean and standard deviation for each measurement were extracted using `grep`.
 5. The descriptive activity names to name the activities in the data set were used instead of code values.
 6. Appropriately labeled the data set with descriptive variable names rather than the character strings of the raw data using `gsub`.
 7. Another tidy data set was computed from this data by averaging each variable for each activity and each subject.
