@@ -49,57 +49,53 @@ Variable | Description
 "TimeBody_Gyroscope_Jerk_StandardDeviation__Z" | Standard Deviation of gyroscope jerk signal for time body measurements for Z direction 
 "TimeBody_Accelerometer_Magnitude__Mean_" | Mean time body accelerometer magnitude                            
 "TimeBody_Accelerometer_Magnitude__StandardDeviation_" | Standard deviation of time body accelerometer magnitude measurement             
-"TimeDomain_GravityAccelerometer_Magnitude__Mean_"                    
-"TimeDomain_GravityAccelerometer_Magnitude__StandardDeviation_"       
-"TimeBody_Accelerometer_JerkMagnitude__Mean_"                         
-"TimeBody_Accelerometer_JerkMagnitude__StandardDeviation_"            
-"TimeBody_Gyroscope_Magnitude__Mean_"                                 
-"TimeBody_Gyroscope_Magnitude__StandardDeviation_"                    
-"TimeBody_Gyroscope_JerkMagnitude__Mean_"                             
-"TimeBody_Gyroscope_JerkMagnitude__StandardDeviation_"                
-"FrequencyDomain_BodyAccelerometer__Mean__X"                          
-"FrequencyDomain_BodyAccelerometer__Mean__Y"                          
-"FrequencyDomain_BodyAccelerometer__Mean__Z"                          
-"FrequencyDomain_BodyAccelerometer__StandardDeviation__X"             
-"FrequencyDomain_BodyAccelerometer__StandardDeviation__Y"             
-"FrequencyDomain_BodyAccelerometer__StandardDeviation__Z"             
-"FrequencyDomain_BodyAccelerometer__Mean_Frequency__X"                
-"FrequencyDomain_BodyAccelerometer__Mean_Frequency__Y"                
-"FrequencyDomain_BodyAccelerometer__Mean_Frequency__Z"                
-"FrequencyDomain_BodyAccelerometer_Jerk_Mean__X"                      
-"FrequencyDomain_BodyAccelerometer_Jerk_Mean__Y"                      
-"FrequencyDomain_BodyAccelerometer_Jerk_Mean__Z"                      
-"FrequencyDomain_BodyAccelerometer_Jerk_StandardDeviation__X"         
-"FrequencyDomain_BodyAccelerometer_Jerk_StandardDeviation__Y"         
-"FrequencyDomain_BodyAccelerometer_Jerk_StandardDeviation__Z"         
-"FrequencyDomain_BodyAccelerometer_Jerk_Mean_Frequency__X"            
-"FrequencyDomain_BodyAccelerometer_Jerk_Mean_Frequency__Y"            
-"FrequencyDomain_BodyAccelerometer_Jerk_Mean_Frequency__Z"            
-"FrequencyDomain_BodyGyroscope__Mean__X"                              
-"FrequencyDomain_BodyGyroscope__Mean__Y"                              
-"FrequencyDomain_BodyGyroscope__Mean__Z"                              
-"FrequencyDomain_BodyGyroscope__StandardDeviation__X"                 
-"FrequencyDomain_BodyGyroscope__StandardDeviation__Y"                 
-"FrequencyDomain_BodyGyroscope__StandardDeviation__Z"                 
-"FrequencyDomain_BodyGyroscope__Mean_Frequency__X"                    
-"FrequencyDomain_BodyGyroscope__Mean_Frequency__Y"                    
-"FrequencyDomain_BodyGyroscope__Mean_Frequency__Z"                    
-"FrequencyDomain_BodyAccelerometer_Magnitude__Mean_"                  
-"FrequencyDomain_BodyAccelerometer_Magnitude__StandardDeviation_"     
-"FrequencyDomain_BodyAccelerometer_Magnitude__Mean_Frequency_"        
-"FrequencyDomain_Body_Accelerometer_JerkMagnitude__Mean_"             
-"FrequencyDomain_Body_Accelerometer_JerkMagnitude__StandardDeviation_"
-"FrequencyDomain_Body_Accelerometer_JerkMagnitude__Mean_Frequency_"   
-"FrequencyDomain_Body_Gyroscope_Magnitude__Mean_"                     
-"FrequencyDomain_Body_Gyroscope_Magnitude__StandardDeviation_"        
-"FrequencyDomain_Body_Gyroscope_Magnitude__Mean_Frequency_"           
-"FrequencyDomain_Body_Gyroscope_JerkMagnitude__Mean_"                 
-"FrequencyDomain_Body_Gyroscope_JerkMagnitude__StandardDeviation_"    
-"FrequencyDomain_Body_Gyroscope_JerkMagnitude__Mean_Frequency_"
-
-
-
-
+"TimeDomain_GravityAccelerometer_Magnitude__Mean_"  | Mean time domain gravity accelerometer magnitude                   
+"TimeDomain_GravityAccelerometer_Magnitude__StandardDeviation_" | Standard deviation of time domain gravity accelerometer  
+"TimeBody_Accelerometer_JerkMagnitude__Mean_" | Mean time body accelerometer jerk magnitude                         
+"TimeBody_Accelerometer_JerkMagnitude__StandardDeviation_" | Standard deviation of time body accelerometer jerk             
+"TimeBody_Gyroscope_Magnitude__Mean_" | Mean time body gyroscope magnitude                                   
+"TimeBody_Gyroscope_Magnitude__StandardDeviation_"  | Standard deviation of time body gyroscope                  
+"TimeBody_Gyroscope_JerkMagnitude__Mean_" | Mean time body gyroscope jerk magnitude                               
+"TimeBody_Gyroscope_JerkMagnitude__StandardDeviation_" | Stamdard deviation of time body gyroscope jerk               
+"FrequencyDomain_BodyAccelerometer__Mean__X"  | Mean frequency domain body acceleration in X direction                        
+"FrequencyDomain_BodyAccelerometer__Mean__Y"  | Mean frequency domain body acceleration in Y direction                        
+"FrequencyDomain_BodyAccelerometer__Mean__Z"  | Mean frequency domain body acceleration in Z direction                        
+"FrequencyDomain_BodyAccelerometer__StandardDeviation__X" | Standard deviation of frequency domain body acceleration in X direction
+"FrequencyDomain_BodyAccelerometer__StandardDeviation__Y" | Standard deviation of frequency domain body acceleration in Y direction    
+"FrequencyDomain_BodyAccelerometer__StandardDeviation__Z" | Standard deviation of frequency domain body acceleration in Z direction    
+"FrequencyDomain_BodyAccelerometer__Mean_Frequency__X"  | Mean frequency domain body acceleration frequency in X direction
+"FrequencyDomain_BodyAccelerometer__Mean_Frequency__Y"  | Mean frequency domain body acceleration frequency in Y direction              
+"FrequencyDomain_BodyAccelerometer__Mean_Frequency__Z"  | Mean frequency domain body acceleration frequency in Z direction              
+"FrequencyDomain_BodyAccelerometer_Jerk_Mean__X" | Mean frequency domain body acceleration jerk in X direction                     
+"FrequencyDomain_BodyAccelerometer_Jerk_Mean__Y" | Mean frequency domain body acceleration jerk in Y direction                      
+"FrequencyDomain_BodyAccelerometer_Jerk_Mean__Z" | Mean frequency domain body acceleration jerk in Z direction                     
+"FrequencyDomain_BodyAccelerometer_Jerk_StandardDeviation__X" | Standard Deviation of frequency domain body acceleration jerk in X direction         
+"FrequencyDomain_BodyAccelerometer_Jerk_StandardDeviation__Y" | Standard Deviation of frequency domain body acceleration jerk in Y direction                 
+"FrequencyDomain_BodyAccelerometer_Jerk_StandardDeviation__Z" | Standard Deviation of frequency domain body acceleration jerk in Z direction                 
+"FrequencyDomain_BodyAccelerometer_Jerk_Mean_Frequency__X" | Mean frequency domain body acceleration jerk mean frequency in X direction
+"FrequencyDomain_BodyAccelerometer_Jerk_Mean_Frequency__Y" | Mean frequency domain body acceleration jerk mean frequency in Y direction 
+"FrequencyDomain_BodyAccelerometer_Jerk_Mean_Frequency__Z" | Mean frequency domain body acceleration jerk mean frequency in Z direction 
+"FrequencyDomain_BodyGyroscope__Mean__X" | Mean frequency domain body gyroscope in X direction
+"FrequencyDomain_BodyGyroscope__Mean__Y" | Mean frequency domain body gyroscope in Y direction                             
+"FrequencyDomain_BodyGyroscope__Mean__Z" | Mean frequency domain body gyroscope in Z direction                             
+"FrequencyDomain_BodyGyroscope__StandardDeviation__X" | Standard Deviation of frequency domain body gyroscope in X direction             
+"FrequencyDomain_BodyGyroscope__StandardDeviation__Y" | Standard Deviation of frequency domain body gyroscope in Y direction             
+"FrequencyDomain_BodyGyroscope__StandardDeviation__Z" | Standard Deviation of frequency domain body gyroscope in Z direction             
+"FrequencyDomain_BodyGyroscope__Mean_Frequency__X" | Mean frequency domain body gyroscope frequency in X direction                   
+"FrequencyDomain_BodyGyroscope__Mean_Frequency__Y" | Mean frequency domain body gyroscope frequency in Y direction                   
+"FrequencyDomain_BodyGyroscope__Mean_Frequency__Z" | Mean frequency domain body gyroscope frequency in Z direction                   
+"FrequencyDomain_BodyAccelerometer_Magnitude__Mean_" | Mean frequency domain body accelerometer magnitude                 
+"FrequencyDomain_BodyAccelerometer_Magnitude__StandardDeviation_" | Standard Deviation of frequency domain body accelerometer magnitude 
+"FrequencyDomain_BodyAccelerometer_Magnitude__Mean_Frequency_" | Mean frequency domain body accelerometer magnitude frequency      
+"FrequencyDomain_Body_Accelerometer_JerkMagnitude__Mean_" | Mean frequency domain body accelerometer jerk magnitude          
+"FrequencyDomain_Body_Accelerometer_JerkMagnitude__StandardDeviation_" | Standard Deviation of frequency domain body accelerometer jerk magnitude
+"FrequencyDomain_Body_Accelerometer_JerkMagnitude__Mean_Frequency_" | Mean frequency domain body accelerometer jerk magnitude frequency 
+"FrequencyDomain_Body_Gyroscope_Magnitude__Mean_" | Mean frequency domain body gyroscope magnitude                  
+"FrequencyDomain_Body_Gyroscope_Magnitude__StandardDeviation_" | Standard Deviation of frequency domain body gyroscope magnitude        
+"FrequencyDomain_Body_Gyroscope_Magnitude__Mean_Frequency_" | Mean frequency domain body gyroscope magnitude frequency          
+"FrequencyDomain_Body_Gyroscope_JerkMagnitude__Mean_" | Mean frequency domain body gyroscope jerk magnitude                 
+"FrequencyDomain_Body_Gyroscope_JerkMagnitude__StandardDeviation_" | Standard Deviation of frequency domain body gyroscope jerk magnitude    
+"FrequencyDomain_Body_Gyroscope_JerkMagnitude__Mean_Frequency_"| Mean frequency domain body gyroscope jerk magnitude frequency
 
 
 [^1]: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
