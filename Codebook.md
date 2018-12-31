@@ -13,42 +13,42 @@ to have only low frequency components, therefore a filter with 0.3 Hz cutoff fre
 was obtained by calculating variables from the time and frequency domain."[^1]
 
 ## Variable Desciptions
-Variable name (Headers) | Description
---- | ---
+Variable | Description
+--- | -------------
 "subject" | Subject ID                                                            
 "activity" | The activity performed                                                              
-"TimeBody_Accelerometer__Mean__X"   | Mean time for acceleration of body for X direction                                      
-"TimeBody_Accelerometer__Mean__Y"    | Mean time for acceleration of body for Y direction                                     
-"TimeBody_Accelerometer__Mean__Z"      | Mean time for acceleration of body for Z direction                                   
-"TimeBody_Accelerometer__StandardDeviation__X"   | Standard deviation of time for acceleration of body for X direction                  
-"TimeBody_Accelerometer__StandardDeviation__Y"| a                            
-"TimeBody_Accelerometer__StandardDeviation__Z"  | a                          
-"TimeDomain_GravityAccelerometer__Mean__X"  | a     
-"TimeDomain_GravityAccelerometer__Mean__Y"                            
-"TimeDomain_GravityAccelerometer__Mean__Z"                            
-"TimeDomain_GravityAccelerometer__StandardDeviation__X"               
-"TimeDomain_GravityAccelerometer__StandardDeviation__Y"               
-"TimeDomain_GravityAccelerometer__StandardDeviation__Z"               
-"TimeBody_Accelerometer_Jerk_Mean__X"                                 
-"TimeBody_Accelerometer_Jerk_Mean__Y"                                 
-"TimeBody_Accelerometer_Jerk_Mean__Z"                                 
-"TimeBody_Accelerometer_Jerk_StandardDeviation__X"                    
-"TimeBody_Accelerometer_Jerk_StandardDeviation__Y"                    
-"TimeBody_Accelerometer_Jerk_StandardDeviation__Z"                    
-"TimeBody_Gyroscope__Mean__X"                                         
-"TimeBody_Gyroscope__Mean__Y"                                         
-"TimeBody_Gyroscope__Mean__Z"                                         
-"TimeBody_Gyroscope__StandardDeviation__X"                            
-"TimeBody_Gyroscope__StandardDeviation__Y"                            
-"TimeBody_Gyroscope__StandardDeviation__Z"                            
-"TimeBody_Gyroscope_Jerk_Mean__X"                                     
-"TimeBody_Gyroscope_Jerk_Mean__Y"                                     
-"TimeBody_Gyroscope_Jerk_Mean__Z"                                     
-"TimeBody_Gyroscope_Jerk_StandardDeviation__X"                        
-"TimeBody_Gyroscope_Jerk_StandardDeviation__Y"                        
-"TimeBody_Gyroscope_Jerk_StandardDeviation__Z"                        
-"TimeBody_Accelerometer_Magnitude__Mean_"                             
-"TimeBody_Accelerometer_Magnitude__StandardDeviation_"                
+"TimeBody_Accelerometer__Mean__X"   | Mean time for accelerating the body in X direction                                      
+"TimeBody_Accelerometer__Mean__Y"    | Mean time for accelerating the body in Y direction                                     
+"TimeBody_Accelerometer__Mean__Z"      | Mean time for accelerating the body in Z direction                                   
+"TimeBody_Accelerometer__StandardDeviation__X"   | Standard deviation of time for accelerating the body in X direction                  
+"TimeBody_Accelerometer__StandardDeviation__Y"| Standard deviation of time for accelerating the body in Y direction                     
+"TimeBody_Accelerometer__StandardDeviation__Z"  | Standard deviation of time for accelerating the body in Z direction                   
+"TimeDomain_GravityAccelerometer__Mean__X"  | Mean time for acceleration by gravity in X direction     
+"TimeDomain_GravityAccelerometer__Mean__Y" | Mean time for acceleration by gravity in Y direction                           
+"TimeDomain_GravityAccelerometer__Mean__Z"  | Mean time for acceleration by gravity in Z direction                           
+"TimeDomain_GravityAccelerometer__StandardDeviation__X" | Standard deviation of time for acceleration by gravity in X direction         
+"TimeDomain_GravityAccelerometer__StandardDeviation__Y" | Standard deviation of time for acceleration by gravity in Y direction       
+"TimeDomain_GravityAccelerometer__StandardDeviation__Z" | Standard deviation of time for acceleration by gravity in Z direction         
+"TimeBody_Accelerometer_Jerk_Mean__X"  | Mean time for accelerating body due to jerk for X direction                               
+"TimeBody_Accelerometer_Jerk_Mean__Y"  | Mean time for accelerating body due to jerk for Y direction                                   
+"TimeBody_Accelerometer_Jerk_Mean__Z"  | Mean time for accelerating body due to jerk for Z direction                                   
+"TimeBody_Accelerometer_Jerk_StandardDeviation__X"  |  Standard deviation of time for accelerating body due to jerk for X direction     
+"TimeBody_Accelerometer_Jerk_StandardDeviation__Y"  |  Standard deviation of time for accelerating body due to jerk for Y direction     
+"TimeBody_Accelerometer_Jerk_StandardDeviation__Z" |  Standard deviation of time for accelerating body due to jerk for Z direction      
+"TimeBody_Gyroscope__Mean__X" | Mean time body gyroscope measurement for X direction                                        
+"TimeBody_Gyroscope__Mean__Y"  | Mean time body gyroscope measurement for Y direction                                        
+"TimeBody_Gyroscope__Mean__Z" | Mean time body gyroscope measurement for Z direction                                         
+"TimeBody_Gyroscope__StandardDeviation__X" | Standard deviation of time body gyroscope measurement for X direction                       
+"TimeBody_Gyroscope__StandardDeviation__Y" | Standard deviation of time body gyroscope measurement for Y direction                       
+"TimeBody_Gyroscope__StandardDeviation__Z" | Standard deviation of time body gyroscope measurement for Z direction                       
+"TimeBody_Gyroscope_Jerk_Mean__X" | Mean gyroscope jerk signal for time body for X direction                                    
+"TimeBody_Gyroscope_Jerk_Mean__Y" | Mean gyroscope jerk signal for time body for Y direction                                      
+"TimeBody_Gyroscope_Jerk_Mean__Z" | Mean gyroscope jerk signal for time body for Z direction                                      
+"TimeBody_Gyroscope_Jerk_StandardDeviation__X" | Standard Deviation of gyroscope jerk signal for time body measurements for X direction 
+"TimeBody_Gyroscope_Jerk_StandardDeviation__Y" | Standard Deviation of gyroscope jerk signal for time body measurements for Y direction 
+"TimeBody_Gyroscope_Jerk_StandardDeviation__Z" | Standard Deviation of gyroscope jerk signal for time body measurements for Z direction 
+"TimeBody_Accelerometer_Magnitude__Mean_" | Mean time body accelerometer magnitude                            
+"TimeBody_Accelerometer_Magnitude__StandardDeviation_" | Standard deviation of time body accelerometer magnitude measurement             
 "TimeDomain_GravityAccelerometer_Magnitude__Mean_"                    
 "TimeDomain_GravityAccelerometer_Magnitude__StandardDeviation_"       
 "TimeBody_Accelerometer_JerkMagnitude__Mean_"                         
